@@ -68,6 +68,9 @@ h2 {
 }
 .box1 {
   border-top: 3px solid transparent;
+  border-bottom: 0 transparent;
+  border-right: 0 transparent;
+  border-left: 0 transparent;
   border-image: linear-gradient(
     90deg,
     rgba(20, 153, 217, 1) 0%,
@@ -78,6 +81,9 @@ h2 {
 }
 .box2 {
   border-top: 3px solid transparent;
+  border-bottom: 0 transparent;
+  border-right: 0 transparent;
+  border-left: 0 transparent;
   border-image: linear-gradient(
     90deg,
     rgba(20, 153, 217, 1) 0%,
@@ -88,6 +94,9 @@ h2 {
 }
 .box3 {
   border-top: 3px solid transparent;
+  border-bottom: 0 transparent;
+  border-right: 0 transparent;
+  border-left: 0 transparent;
   border-image: linear-gradient(
     90deg,
     rgba(217, 155, 20, 1) 0%,
