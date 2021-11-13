@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Challenge day12</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="body">
+        <div class="first-container">
+          <div class="head dashboard">
+            <h2>Social Media Dashboard</h2>
+            <p class="total">Total Followers: 23,004</p>
+          </div>
+          <div class="head dark-modee">
+            <p class="toggle">Dark Mode<img id="off"  src="images/icons8-toggle-off-16.png"></p>
+          </div>
+        </div>
+      </div>
+      <div class="second-container">
+        <div class="box box1">
+          <p class="user">
+            <img class="socials" src="images/icon-facebook.svg" />@nathanf
+          </p>
+          <h1>1987</h1>
+          <p class="followers">Followers</p>
+          <p class="total-count">
+            <img class="arrow-up" src="images/icon-up.svg" />12 Today
+          </p>
+        </div>
+        <div class="box box2">
+          <p class="user">
+            <img class="socials" src="images/icon-twitter.svg" />@nathanf
+          </p>
+          <h1>1044</h1>
+          <p class="followers">Followers</p>
+          <p class="total-count">
+            <img class="arrow-up" src="images/icon-up.svg" />99 Today
+          </p>
+        </div>
+        <div class="box box3">
+          <p class="user">
+            <img class="socials" src="images/icon-instagram.svg" />@realnathanf
+          </p>
+          <h1>11k</h1>
+          <p class="followers">Followers</p>
+          <p class="total-count">
+            <img class="arrow-up" src="images/icon-up.svg" />1099 Today
+          </p>
+        </div>
+        <div class="box box4">
+          <p class="user">
+            <img class="socials" src="images/icon-youtube.svg" />Nathan F.
+          </p>
+          <h1>8239</h1>
+          <p class="followers">Subscribers</p>
+          <p class="total-count red">
+            <img class="arrow-up" src="images/icon-down.svg" />144 Today
+          </p>
+        </div>
+      </div>
+      <div class="third-container">
+        <h2>Overview - Today</h2>
+        <div class="last-container">
+          <div>
+            <div class="boxes">
+              <p class="user2">
+                Page Views
+                <img class="socials2" src="images/icon-facebook.svg" />
+              </p>
+              <h3>87</h3>
+              <p class="points green">
+                <img class="arrow" src="images/icon-up.svg" />2%
+              </p>
+            </div>
+            <div class="boxes">
+              <p class="user2">
+                Retweets<img class="socials2" src="images/icon-twitter.svg" />
+              </p>
+              <h3>117</h3>
+              <p class="points green">
+                <img class="arrow" src="images/icon-up.svg" />303%
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="boxes">
+              <p class="user2">
+                Likes <img class="socials2" src="images/icon-facebook.svg" />
+              </p>
+              <h3>52</h3>
+              <p class="points red">
+                <img class="arrow" src="images/icon-down.svg" />2%
+              </p>
+            </div>
+            <div class="boxes">
+              <p class="user2">
+                Likes<img class="socials2" src="images/icon-twitter.svg" />
+              </p>
+              <h3>507</h3>
+              <p class="points green">
+                <img class="arrow" src="images/icon-up.svg" />553%
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="boxes">
+              <p class="user2">
+                Likes<img class="socials2" src="images/icon-instagram.svg" />
+              </p>
+              <h3>5462</h3>
+              <p class="points green">
+                <img class="arrow" src="images/icon-up.svg" />2257%
+              </p>
+            </div>
+            <div class="boxes">
+              <p class="user2">
+                Likes<img class="socials2" src="images/icon-youtube.svg" />
+              </p>
+              <h3>107</h3>
+              <p class="points red">
+                <img class="arrow" src="images/icon-down.svg" />19%
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="boxes">
+              <p class="user2">
+                Profile Views<img
+                  class="socials2"
+                  src="images/icon-instagram.svg"
+                />
+              </p>
+              <h3>52k</h3>
+              <p class="points green">
+                <img class="arrow" src="images/icon-up.svg" />1375%
+              </p>
+            </div>
+            <div class="boxes">
+              <p class="user2">
+                Total Views<img
+                  class="socials2"
+                  src="images/icon-youtube.svg"
+                />
+              </p>
+              <h3>1407</h3>
+              <p class="points red">
+                <img class="arrow" src="images/icon-down.svg" />12%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    var off = document.getElementById("off");
+    off.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.toggle(dark-theme)){
+        off.src = "images/icons8-toggle-on-16 (1).png";
+      }else{
+        off.src = src="images/icons8-toggle-off-16.png";
+      }
+    }
+  </script>
+</html>
