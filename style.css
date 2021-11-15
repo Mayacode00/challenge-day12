@@ -9,6 +9,7 @@
   --intermediate-color: #1e202a;
   --tertiary-color: #f0f2fa;
   --color: #f5f7ff;
+  transition:  .3s ease-out;
 }
 .dark-theme {
   --primary-color: #1e202a;
@@ -16,6 +17,7 @@
   --intermediate-color: #ffffff;
   --tertiary-color: #252a41;
   --color: #1f212e;
+  transition:  .3s ease-out;
 }
 body {
   font-family: "Inter", sans-serif;
